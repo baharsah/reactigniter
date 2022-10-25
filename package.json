@@ -1,0 +1,51 @@
+{
+  "name": "react-codeigniter",
+  "version": "0.0.1",
+  "description": "React CodeIgniter Appstarter",
+  "main": "\"\"",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "prebuild": "del './public/index.html' && rimraf ./public/statics",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baharsah/reactigniter.git"
+  },
+  "author": "Baharsah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baharsah/reactigniter/issues"
+  },
+  "homepage": "https://github.com/baharsah/reactigniter#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "del": "^7.0.0",
+    "del-cli": "^5.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2",
+    "semantic-ui-react": "^2.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "pm2": "^5.2.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
