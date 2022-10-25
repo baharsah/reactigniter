@@ -27,6 +27,9 @@
         }
     },
     "scripts": {
-        "test": "phpunit"
+        "test": "phpunit",
+        "build": "npm run build --dev",
+        "serve": "php spark serve",
+        "init" : "composer i && npm run i"
     }
 }
