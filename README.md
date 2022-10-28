@@ -21,3 +21,11 @@ React CodeIgniter is an appstarter bundle for fullstack programing javascript an
     3. `yarn run build` for building frontend
     4. `php spark serve` for serving as backend
     5. `yarn run serve` for serving as frontend
+
+## Todo
+
+[] Make Static Routing
+[] Create command for managing reactigniter
+[] Create command to creating new component
+[] Make HTTP Request Debugbar Handler
+[] Make Debugbar Handler
