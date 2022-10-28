@@ -4,6 +4,14 @@
     "description": "CodeIgniter4 starter app with React",
     "homepage": "https://reactigniter.baharsah.my.id",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Baharsah",
+            "email": "me@baharsah.my.id",
+            "homepage": "https://github.com/baharsah",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": "^7.4 || ^8.0",
         "codeigniter4/framework": "^4.0"
@@ -27,6 +35,7 @@
         }
     },
     "scripts": {
-        "test": "phpunit"
+        "test": "phpunit",
+        "build" : "yarn run build"
     }
 }
